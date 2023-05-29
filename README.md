@@ -59,4 +59,4 @@ options:
 [ex01]: imgs/ex01.png
 [ex02]: imgs/ex02.png
 [ex03]: imgs/ex03.gif
-[ex04]: imgs/ex03.png
+[ex04]: imgs/ex04.png
