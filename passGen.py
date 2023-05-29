@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser(
 )
 parser.add_argument("-l", "--length", type=int, help="lenght of password")
 parser.add_argument("-r", "--repeat", type=int, help="repeated words from 1 to N", required=True)
-parser.add_argument("-w", "--words", type=str, help='words space separated "foo bar"', required=True)
+parser.add_argument("-w", "--words", type=str, help='words space separated "foo bar \s test". the \s for space', required=True)
 parser.add_argument("-o", "--output", help="output path file name")
 parser.add_argument(
     "-v", "--verbose", action="store_true", help="print the password to stdout"
