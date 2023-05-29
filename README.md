@@ -40,8 +40,23 @@ options:
                         output path file name
   -v, --verbose         print the password to stdout
   -q, --quit            print only psswords
-  ```
+```
   
-  # Test
+# Test
+## With some information
+![img][ex01]
+
+## Add -v to show generated password
+![img][ex02]
+
+## To print only password you can add -q and -v
+![img][ex04]
+
+## Preview
+![img][ex03]
+
   
-  ![img]("imgs/ex01.png")
+[ex01]: imgs/ex01.png
+[ex02]: imgs/ex02.png
+[ex03]: imgs/ex03.gif
+[ex04]: imgs/ex03.png
